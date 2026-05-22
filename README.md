@@ -1,4 +1,4 @@
-# GENAI
+# LLAMA_1B_LOCAL_CHAT
 
 A lightweight local text-generation demo using Hugging Face Transformers with 4-bit quantization for lower memory usage.
 
