@@ -1,6 +1,7 @@
-from transformers import pipeline, BitsAndBytesConfig
-import torch
 import gc
+
+import torch
+from transformers import BitsAndBytesConfig, pipeline
 
 # This is the secret sauce for 8GB RAM
 quant_config = BitsAndBytesConfig(
